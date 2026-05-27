@@ -42,7 +42,7 @@ const DIFFICULTY = {
   hard:    { depth: 3, noise: 0.05, blunder: 0.02 },
   insane:  { depth: 4, noise: 0.01, blunder: 0.004 },
   master:  { depth: 5, noise: 0.001, blunder: 0.001 },
-  grandmaster:  { depth: 6, noise: 0.0001, blunder: 0.0001 }
+  grandmaster:  { depth: 7, noise: 0.0001, blunder: 0.0001 }
 };
 
 class Position {
@@ -541,7 +541,7 @@ let engine;
 
   this.stack = [];
 
-  this.nodeBudgetPerFrame = 3000000; // you already found this sweet spot
+  this.nodeBudgetPerFrame = 300000000; // you already found this sweet spot
 
   // iterative deepening
   this.maxDepth = 1;
