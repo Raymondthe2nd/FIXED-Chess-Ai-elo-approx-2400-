@@ -15,7 +15,7 @@ const KING   = 6;
 
 let pendingPromotionMove = null;
 let promotionChoices = ["q", "r", "b", "n"];
-let currentDifficulty = "master"; 
+let currentDifficulty = "grandmaster"; 
 let lastMove = null; // { fromFile, fromRank, toFile, toRank }
 let humanSide = WHITE;
 const NULL_MOVE_R = 2;      // reduction
