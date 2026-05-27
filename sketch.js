@@ -541,7 +541,7 @@ let engine;
 
   this.stack = [];
 
-  this.nodeBudgetPerFrame = 300000000; // you already found this sweet spot
+  this.nodeBudgetPerFrame = 30000000000; // you already found this sweet spot
 
   // iterative deepening
   this.maxDepth = 1;
